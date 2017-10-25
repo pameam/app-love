@@ -74,3 +74,29 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+.logo-header {
+  width: 20px;
+}
+.box-header {
+  display: inline-block;
+}
+img[alt="logo"]{
+  width: 20px;
+}
+button{
+  background-color: #f9a91a;
+  padding: 5px;
+  border:0px;
+  border-radius: 10px;
+  font-weight: 600px;
+}
+.column {
+  width: 200px;
+  float: left;
+  padding-top: 310px;
+  margin-right: 140px;
+}
+.column img {
+  width: 200px;
+  height: 200px;
+}
