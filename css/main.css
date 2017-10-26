@@ -103,7 +103,7 @@ image-home{
   position: relative;
 }
 .first{
-
+max-width: 100%;
 }
 .content{
   position: absolute;
@@ -121,4 +121,8 @@ h1{
 p{
   color: white;
   text-align: center;
+}
+.second{
+
+  background-color: #FA8072;
 }
