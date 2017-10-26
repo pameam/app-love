@@ -1,8 +1,4 @@
 /*CLASES REUTILIZABLES*/
-header{
-  outline: 1px solid red;
-  position: fixed;
-}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -63,6 +59,7 @@ img {
 a {
   color: #373B47;
   text-decoration: none;
+  margin-left: 50px;
 }
 
 a:hover {
@@ -74,29 +71,54 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
 .logo-header {
-  width: 20px;
+  width: 70px;
+
 }
 .box-header {
   display: inline-block;
 }
-img[alt="logo"]{
-  width: 20px;
+
+nav {
+  position: absolute;
+  left:15%;
+  top: 50%;
+  transform: translatey(-50%);
 }
-button{
-  background-color: #f9a91a;
-  padding: 5px;
-  border:0px;
-  border-radius: 10px;
-  font-weight: 600px;
+figure{
+  position:relative;
+  right:8%;
+  float: right;
+  display: inline-block;
 }
-.column {
-  width: 200px;
-  float: left;
-  padding-top: 310px;
-  margin-right: 140px;
+
+header{
+  width: 100%;
+  position:fixed;
+  background-color: white;
+  overflow: auto;
 }
-.column img {
-  width: 200px;
-  height: 200px;
+image-home{
+  position: relative;
+}
+.first{
+
+}
+.content{
+  position: absolute;
+  top: 180px;
+  transform: translatex(75%);
+}
+h2{
+  color: white;
+  text-align: center;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+p{
+  color: white;
+  text-align: center;
 }
